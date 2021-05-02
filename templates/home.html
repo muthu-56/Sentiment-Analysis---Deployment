@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr" xmlns:background="http://www.w3.org/1999/xhtml" xmlns:bottom="http://www.w3.org/1999/xhtml"
+      xmlns:background-color="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <title>Spam SMS Detector</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='game_controller.jfif') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <style>
+        #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 50px;
+            background: #6cf;
+            box-shadow:  inset 5px 5px 10px #000000,
+            inset -5px -5px 10px blue;}
+         .container {
+         position: relative;
+         max-width: 750px; /* Maximum width */
+         height: 75px;
+         margin: 0 auto; /* Center it */\}
+         background: rgb(205, 204, 204); /* Fallback for older browsers without RGBA-support */
+         background: rgba(204, 204, 204, 0.5);
+        }
+    </style>
+    </head>
+
+    <body>
+    <div style="background-image: url('static/image.jpg'); height: 100%; margin:0; background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+        <!-- Website Title -->
+    	<div class="bg-image">
+    		<div class="container" >
+                <font color="white"><h1>Game Review Sentiment Prediction</h1>
+                <p>A Machine Learning Web App, Built with Flask, Deployed using Heroku</p></font>
+            </div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST" onsubmit="required()">
+        		<textarea name="message" rows="15" cols="75" placeholder="Enter Your Message Here..." required="required"></textarea><br/>
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+
+        <!-- Footer -->
+        <div id='footer'>
+            <div class="contact">
+                <a target="_blank" href="https://github.com/muthu-56"><i class="fab fa-github fa-lg contact-icon"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mari-muthu-5b7b26146/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100007621865935"><i class="fab fa-facebook fa-lg contact-icon"></i></a>
+                <a target="_blank" href="https://www.instagram.com/muthu_56/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+            </div>
+            <p class='footer-description'>Made with ❤️ by Marimuthu.</p>
+        </div>
+
+    </body>
+</html>
