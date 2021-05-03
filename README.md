@@ -3,8 +3,8 @@ Steam is a video game digital distribution service with a vast community of game
 
 
 Data Description:
-  review_id --> Unique ID for each review
-  title --> Title of the game
-  year --> Year in which the review was posted
-  user_review --> Full Text of the review posted by a user
-  user_suggestion --> (Target) Game marked Recommended(1) and Not Recommended(0) by the user
+review_id --> Unique ID for each review
+title --> Title of the game
+year --> Year in which the review was posted
+user_review --> Full Text of the review posted by a user
+user_suggestion --> (Target) Game marked Recommended(1) and Not Recommended(0) by the user
