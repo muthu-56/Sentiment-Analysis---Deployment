@@ -14,4 +14,5 @@ user_review --> Full Text of the review posted by a user
 user_suggestion --> (Target) Game marked Recommended(1) and Not Recommended(0) by the user
 
 
-![](https://github.com/muthu-56/Sentiment-Analysis---Deployment/Sentiment prediction_gif.gif)
+![Sentiment prediction](https://user-images.githubusercontent.com/63091953/117003549-9d910980-ad02-11eb-8083-2bf57bc51362.gif)
+
