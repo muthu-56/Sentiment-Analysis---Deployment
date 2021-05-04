@@ -12,3 +12,6 @@ year --> Year in which the review was posted
 user_review --> Full Text of the review posted by a user
 
 user_suggestion --> (Target) Game marked Recommended(1) and Not Recommended(0) by the user
+
+
+![](Sentiment prediction_gif.gif)
