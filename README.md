@@ -11,5 +11,5 @@ Steam is a video game digital distribution service with a vast community of game
 
 
 ## WORK DEMO:
-![Sentiment prediction](https://user-images.githubusercontent.com/63091953/117003549-9d910980-ad02-11eb-8083-2bf57bc51362.gif)
+![Sentiment prediction for game review](https://user-images.githubusercontent.com/63091953/117806682-434ef600-b278-11eb-9063-22ccc253a77c.gif)
 
